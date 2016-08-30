@@ -1,0 +1,30 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@ViewBag.Exists
+
+@*<table class="table table-striped">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            CategoryID
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.CategoryID
+            </td>
+        </tr>
+    }
+</table>*@
